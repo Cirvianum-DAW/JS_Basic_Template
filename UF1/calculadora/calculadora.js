@@ -6,9 +6,9 @@ const calculadora = {
   },
 
   // Sense arrow function
-  sumar2: function(a,b){
+  sumar2: function (a, b) {
     return a + b;
-  }
+  },
 
   // Funció per restar dos números
   restar: (a, b) => {
