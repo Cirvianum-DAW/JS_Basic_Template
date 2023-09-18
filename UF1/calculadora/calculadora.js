@@ -5,6 +5,11 @@ const calculadora = {
     return a + b;
   },
 
+  // Sense arrow function
+  sumar2: function(a,b){
+    return a + b;
+  }
+
   // Funció per restar dos números
   restar: (a, b) => {
     return a - b;
@@ -27,13 +32,3 @@ const calculadora = {
 
 // Exportar l'objecte calculator com a exportació per defecte
 module.exports = calculadora;
-
-/* 
-// Això també ho podríem realitzar amb aquest codi!
-const calculadora = {
-  sumar: (a, b) => a + b,
-  restar: (a, b) => a - b,
-  multiplicar: (a, b) => a * b,
-  dividir: (a,b) => a / b;
-};
- */
